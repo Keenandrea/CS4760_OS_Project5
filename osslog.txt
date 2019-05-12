@@ -1,0 +1,687 @@
+OSS has created a new Process P1 at time 0:390200000
+OSS has detected Process P1 requesting R11 at time 0:396130000
+OSS has granted Process P1 resource R11 at time 0:396130000
+OSS has detected Process P1 requesting R10 at time 0:396830000
+OSS has granted Process P1 resource R10 at time 0:396830000
+OSS has detected Process P1 requesting R14 at time 0:397530000
+OSS has granted Process P1 resource R14 at time 0:397530000
+OSS has detected Process P1 requesting R11 at time 0:398240000
+OSS has granted Process P1 resource R11 at time 0:398240000
+OSS has detected Process P1 has released resource R14 at time 0:422510000
+OSS has detected Process P1 has released resource R11 at time 0:423210000
+OSS has detected Process P1 requesting R12 at time 0:423910000
+OSS has granted Process P1 resource R12 at time 0:423910000
+OSS has detected Process P1 requesting R8 at time 0:424610000
+OSS has granted Process P1 resource R8 at time 0:424610000
+OSS has detected Process P1 has released resource R12 at time 0:426800000
+OSS has detected Process P1 requesting R12 at time 0:427510000
+OSS has granted Process P1 resource R12 at time 0:427510000
+OSS has detected Process P1 requesting R16 at time 0:429740000
+OSS has granted Process P1 resource R16 at time 0:429740000
+OSS has detected Process P1 requesting R3 at time 0:430440000
+OSS has granted Process P1 resource R3 at time 0:430440000
+OSS has detected Process P1 requesting R13 at time 0:432090000
+OSS has granted Process P1 resource R13 at time 0:432090000
+OSS has detected Process P1 requesting R12 at time 0:432790000
+OSS has put Process P1 in waiting status for R12 at time 0:432790000
+OSS has created a new Process P2 at time 0:881660000
+OSS has detected Process P2 requesting R17 at time 0:890120000
+OSS has granted Process P2 resource R17 at time 0:890120000
+OSS has detected Process P2 requesting R6 at time 0:891430000
+OSS has granted Process P2 resource R6 at time 0:891430000
+OSS has detected Process P2 requesting R4 at time 0:895320000
+OSS has granted Process P2 resource R4 at time 0:895320000
+OSS has detected Process P2 requesting R2 at time 0:896130000
+OSS has granted Process P2 resource R2 at time 0:896130000
+OSS has detected Process P2 requesting R14 at time 0:896950000
+OSS has granted Process P2 resource R14 at time 0:896950000
+OSS has detected Process P2 requesting R1 at time 0:899360000
+OSS has granted Process P2 resource R1 at time 0:899360000
+OSS has detected Process P2 has released resource R17 at time 0:900460000
+OSS has detected Process P2 requesting R17 at time 0:901270000
+OSS has granted Process P2 resource R17 at time 0:901270000
+OSS has detected Process P2 has released resource R17 at time 0:903710000
+OSS has detected Process P2 requesting R5 at time 0:904520000
+OSS has granted Process P2 resource R5 at time 0:904520000
+OSS has detected Process P2 requesting R15 at time 0:905720000
+OSS has granted Process P2 resource R15 at time 0:905720000
+OSS has detected Process P2 requesting R6 at time 0:908070000
+OSS has granted Process P2 resource R6 at time 0:908070000
+
+Here's a look at our resource table:
+P:1   0 0 0 4 0 0 0 0 1 0 2 0 3 2 0 0 3 0 0 0 
+P:2   0 4 1 0 1 7 7 0 0 0 0 0 0 0 1 3 0 0 0 0 
+
+OSS has detected Process P2 requesting R11 at time 0:984180000
+OSS has granted Process P2 resource R11 at time 0:984180000
+OSS has detected deadlock at 1:0
+	Process P1 being terminated in deadlock algoritm at time 1:0
+		Resources released are:
+			R3 R8 R10 R12 R13 R16 
+System is no longer in deadlock
+OSS has detected Process P2 has released resource R15 at time 1:10000
+OSS has detected Process P2 requesting R8 at time 1:161400000
+OSS has granted Process P2 resource R8 at time 1:161400000
+OSS has detected Process P2 requesting R3 at time 1:163660000
+OSS has granted Process P2 resource R3 at time 1:163660000
+OSS has detected Process P2 requesting R4 at time 1:165990000
+OSS has granted Process P2 resource R4 at time 1:165990000
+OSS has detected Process P2 requesting R4 at time 1:168000000
+OSS has put Process P2 in waiting status for R4 at time 1:168000000
+OSS has created a new Process P1 at time 1:228020000
+OSS has detected Process P1 requesting R4 at time 1:236880000
+OSS has put Process P1 in waiting status for R4 at time 1:236880000
+OSS has created a new Process P3 at time 1:660180000
+OSS has detected Process P3 requesting R2 at time 1:667130000
+OSS has put Process P3 in waiting status for R2 at time 1:667130000
+OSS has detected deadlock at 2:0
+	Process P2 being terminated in deadlock algoritm at time 2:0
+		Resources released are:
+			R1 R2 R3 R4 R5 R6 R8 R11 R14 
+OSS has detected resource R4 given to process P1 at time 2:0
+	Process P3 being terminated in deadlock algoritm at time 2:0
+		Resources released are:
+			
+System is no longer in deadlock
+OSS has detected Process P1 has terminated at time 2:10000
+OSS has created a new Process P1 at time 2:82550000
+OSS has detected Process P1 requesting R16 at time 2:89350000
+OSS has granted Process P1 resource R16 at time 2:89350000
+OSS has detected Process P1 has released resource R16 at time 2:92410000
+OSS has detected Process P1 requesting R9 at time 2:92560000
+OSS has granted Process P1 resource R9 at time 2:92560000
+OSS has detected Process P1 requesting R18 at time 2:92660000
+OSS has granted Process P1 resource R18 at time 2:92660000
+OSS has detected Process P1 requesting R6 at time 2:92770000
+OSS has granted Process P1 resource R6 at time 2:92770000
+OSS has detected Process P1 requesting R1 at time 2:95360000
+OSS has granted Process P1 resource R1 at time 2:95360000
+OSS has detected Process P1 requesting R4 at time 2:97040000
+OSS has granted Process P1 resource R4 at time 2:97040000
+OSS has detected Process P1 requesting R0 at time 2:97600000
+OSS has granted Process P1 resource R0 at time 2:97600000
+OSS has detected Process P1 has released resource R18 at time 2:97700000
+OSS has detected Process P1 requesting R16 at time 2:97780000
+OSS has granted Process P1 resource R16 at time 2:97780000
+OSS has detected Process P1 requesting R11 at time 2:100300000
+OSS has granted Process P1 resource R11 at time 2:100300000
+OSS has detected Process P1 has released resource R16 at time 2:101410000
+OSS has detected Process P1 requesting R7 at time 2:101470000
+OSS has granted Process P1 resource R7 at time 2:101470000
+OSS has detected Process P1 requesting R15 at time 2:102720000
+OSS has granted Process P1 resource R15 at time 2:102720000
+OSS has detected Process P1 requesting R19 at time 2:103130000
+OSS has granted Process P1 resource R19 at time 2:103130000
+OSS has detected Process P1 has released resource R19 at time 2:103220000
+OSS has detected Process P1 requesting R13 at time 2:103290000
+OSS has granted Process P1 resource R13 at time 2:103290000
+OSS has detected Process P1 has released resource R15 at time 2:103370000
+OSS has detected Process P1 has released resource R13 at time 2:103450000
+OSS has detected Process P1 has released resource R11 at time 2:103530000
+OSS has detected Process P1 requesting R9 at time 2:103610000
+OSS has put Process P1 in waiting status for R9 at time 2:103610000
+OSS has created a new Process P2 at time 2:452790000
+OSS has detected Process P2 requesting R0 at time 2:458750000
+OSS has granted Process P2 resource R0 at time 2:458750000
+OSS has detected Process P2 requesting R18 at time 2:543110000
+OSS has granted Process P2 resource R18 at time 2:543110000
+
+Here's a look at our resource table:
+P:1   2 3 0 0 2 0 6 1 0 3 0 0 0 0 0 0 0 0 0 0 
+P:2   7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 
+
+OSS has detected Process P2 requesting R1 at time 2:623470000
+OSS has granted Process P2 resource R1 at time 2:623470000
+OSS has detected Process P2 requesting R6 at time 2:704570000
+OSS has put Process P2 in waiting status for R6 at time 2:704570000
+OSS has created a new Process P3 at time 2:938300000
+OSS has detected Process P3 requesting R5 at time 2:944040000
+OSS has granted Process P3 resource R5 at time 2:944040000
+OSS has detected Process P3 has released resource R5 at time 2:945840000
+OSS has detected Process P3 requesting R7 at time 2:946080000
+OSS has put Process P3 in waiting status for R7 at time 2:946080000
+OSS has created a new Process P4 at time 2:960000000
+OSS has detected Process P4 requesting R0 at time 2:965100000
+OSS has put Process P4 in waiting status for R0 at time 2:965100000
+OSS has detected deadlock at 3:0
+	Process P1 being terminated in deadlock algoritm at time 3:0
+		Resources released are:
+			R0 R1 R4 R6 R7 R9 
+OSS has detected resource R6 given to process P2 at time 3:0
+OSS has detected resource R7 given to process P3 at time 3:0
+	Process P4 being terminated in deadlock algoritm at time 3:0
+		Resources released are:
+			R0 
+System is no longer in deadlock
+OSS has detected Process P3 has released resource R7 at time 3:800000
+OSS has detected Process P2 requesting R15 at time 3:810000
+OSS has granted Process P2 resource R15 at time 3:810000
+OSS has detected Process P2 requesting R14 at time 3:2700000
+OSS has granted Process P2 resource R14 at time 3:2700000
+OSS has detected Process P3 requesting R11 at time 3:2710000
+OSS has granted Process P3 resource R11 at time 3:2710000
+OSS has detected Process P2 has released resource R18 at time 3:5070000
+OSS has detected Process P3 requesting R5 at time 3:5080000
+OSS has granted Process P3 resource R5 at time 3:5080000
+OSS has detected Process P2 has released resource R15 at time 3:6030000
+OSS has detected Process P3 requesting R10 at time 3:6040000
+OSS has granted Process P3 resource R10 at time 3:6040000
+OSS has detected Process P2 requesting R5 at time 3:6980000
+OSS has granted Process P2 resource R5 at time 3:6980000
+OSS has detected Process P3 requesting R1 at time 3:6990000
+OSS has put Process P3 in waiting status for R1 at time 3:6990000
+OSS has detected Process P2 has released resource R14 at time 3:9230000
+OSS has detected Process P2 requesting R16 at time 3:10180000
+OSS has granted Process P2 resource R16 at time 3:10180000
+OSS has detected Process P2 requesting R8 at time 3:11140000
+OSS has granted Process P2 resource R8 at time 3:11140000
+OSS has detected Process P2 has released resource R16 at time 3:12950000
+OSS has detected Process P2 requesting R3 at time 3:13900000
+OSS has granted Process P2 resource R3 at time 3:13900000
+OSS has detected Process P2 has released resource R8 at time 3:14860000
+OSS has detected Process P2 requesting R1 at time 3:15820000
+OSS has put Process P2 in waiting status for R1 at time 3:15820000
+OSS has created a new Process P1 at time 3:345420000
+OSS has detected Process P1 requesting R2 at time 3:352260000
+OSS has granted Process P1 resource R2 at time 3:352260000
+OSS has detected Process P1 requesting R17 at time 3:363650000
+OSS has granted Process P1 resource R17 at time 3:363650000
+OSS has detected Process P1 requesting R12 at time 3:401710000
+OSS has granted Process P1 resource R12 at time 3:401710000
+OSS has created a new Process P4 at time 3:452040000
+OSS has detected Process P4 requesting R16 at time 3:462450000
+OSS has granted Process P4 resource R16 at time 3:462450000
+OSS has detected Process P1 requesting R10 at time 3:470120000
+OSS has put Process P1 in waiting status for R10 at time 3:470120000
+OSS has detected Process P4 has released resource R16 at time 3:470130000
+OSS has detected Process P4 requesting R14 at time 3:470860000
+OSS has granted Process P4 resource R14 at time 3:470860000
+OSS has detected Process P4 has released resource R14 at time 3:472630000
+OSS has detected Process P4 requesting R18 at time 3:474090000
+OSS has granted Process P4 resource R18 at time 3:474090000
+OSS has detected Process P4 requesting R6 at time 3:475860000
+OSS has put Process P4 in waiting status for R6 at time 3:475860000
+OSS has created a new Process P5 at time 3:710460000
+OSS has detected Process P5 requesting R3 at time 3:716090000
+OSS has put Process P5 in waiting status for R3 at time 3:716090000
+OSS has detected deadlock at 4:0
+	Process P3 being terminated in deadlock algoritm at time 4:0
+		Resources released are:
+			R1 R5 R10 R11 
+OSS has detected resource R1 given to process P2 at time 4:0
+OSS has detected resource R10 given to process P1 at time 4:0
+	Process P4 being terminated in deadlock algoritm at time 4:0
+		Resources released are:
+			R6 R18 
+	Process P5 being terminated in deadlock algoritm at time 4:0
+		Resources released are:
+			R3 
+System is no longer in deadlock
+OSS has detected Process P2 requesting R16 at time 4:10000
+OSS has granted Process P2 resource R16 at time 4:10000
+OSS has detected Process P1 requesting R14 at time 4:20000
+OSS has granted Process P1 resource R14 at time 4:20000
+OSS has detected Process P2 requesting R3 at time 4:4060000
+OSS has put Process P2 in waiting status for R3 at time 4:4060000
+OSS has detected Process P1 requesting R14 at time 4:4070000
+OSS has put Process P1 in waiting status for R14 at time 4:4070000
+OSS has created a new Process P3 at time 4:113270000
+OSS has detected Process P3 requesting R7 at time 4:118200000
+OSS has granted Process P3 resource R7 at time 4:118200000
+OSS has detected Process P3 requesting R12 at time 4:118670000
+OSS has granted Process P3 resource R12 at time 4:118670000
+OSS has detected Process P3 has released resource R12 at time 4:126090000
+OSS has detected Process P3 has released resource R7 at time 4:126580000
+OSS has detected Process P3 requesting R18 at time 4:127050000
+OSS has granted Process P3 resource R18 at time 4:127050000
+OSS has detected Process P3 requesting R2 at time 4:127530000
+OSS has put Process P3 in waiting status for R2 at time 4:127530000
+OSS has created a new Process P4 at time 4:521010000
+OSS has detected Process P4 requesting R15 at time 4:527660000
+OSS has granted Process P4 resource R15 at time 4:527660000
+OSS has detected Process P4 requesting R17 at time 4:591180000
+OSS has put Process P4 in waiting status for R17 at time 4:591180000
+OSS has detected deadlock at 5:0
+	Process P2 being terminated in deadlock algoritm at time 5:0
+		Resources released are:
+			R0 R1 R3 R5 R6 R16 
+	Process P1 being terminated in deadlock algoritm at time 5:0
+		Resources released are:
+			R2 R10 R12 R14 R17 
+OSS has detected resource R2 given to process P3 at time 5:0
+	Process P4 being terminated in deadlock algoritm at time 5:0
+		Resources released are:
+			R15 
+System is no longer in deadlock
+OSS has detected Process P3 has released resource R18 at time 5:4190000
+OSS has detected Process P3 requesting R16 at time 5:4670000
+OSS has granted Process P3 resource R16 at time 5:4670000
+OSS has detected Process P3 requesting R10 at time 5:12660000
+OSS has granted Process P3 resource R10 at time 5:12660000
+OSS has detected Process P3 requesting R1 at time 5:13140000
+OSS has granted Process P3 resource R1 at time 5:13140000
+OSS has detected Process P3 requesting R10 at time 5:16010000
+OSS has granted Process P3 resource R10 at time 5:16010000
+OSS has detected Process P3 requesting R0 at time 5:17140000
+OSS has granted Process P3 resource R0 at time 5:17140000
+OSS has created a new Process P1 at time 5:19560000
+OSS has detected Process P1 requesting R7 at time 5:27970000
+OSS has granted Process P1 resource R7 at time 5:27970000
+OSS has detected Process P3 requesting R2 at time 5:27980000
+OSS has put Process P3 in waiting status for R2 at time 5:27980000
+OSS has detected Process P1 has terminated at time 5:72310000
+OSS has created a new Process P1 at time 5:462070000
+OSS has detected Process P1 requesting R9 at time 5:468210000
+OSS has granted Process P1 resource R9 at time 5:468210000
+OSS has detected Process P1 requesting R5 at time 5:468450000
+OSS has granted Process P1 resource R5 at time 5:468450000
+OSS has detected Process P1 requesting R10 at time 5:497210000
+OSS has put Process P1 in waiting status for R10 at time 5:497210000
+OSS has created a new Process P2 at time 5:806400000
+OSS has created a new Process P4 at time 5:809900000
+OSS has detected Process P4 requesting R15 at time 5:816150000
+OSS has granted Process P4 resource R15 at time 5:816150000
+OSS has detected Process P2 requesting R0 at time 5:816400000
+OSS has granted Process P2 resource R0 at time 5:816400000
+OSS has detected Process P4 requesting R10 at time 5:816410000
+OSS has put Process P4 in waiting status for R10 at time 5:816410000
+OSS has detected Process P2 requesting R15 at time 5:816900000
+OSS has put Process P2 in waiting status for R15 at time 5:816900000
+OSS has created a new Process P5 at time 5:825240000
+OSS has detected Process P5 requesting R17 at time 5:830210000
+OSS has granted Process P5 resource R17 at time 5:830210000
+OSS has created a new Process P6 at time 5:849990000
+OSS has detected Process P5 requesting R2 at time 5:858610000
+OSS has put Process P5 in waiting status for R2 at time 5:858610000
+OSS has detected Process P6 requesting R17 at time 5:859360000
+OSS has granted Process P6 resource R17 at time 5:859360000
+
+Here's a look at our resource table:
+P:1   0 0 0 0 0 7 0 0 0 2 0 0 0 0 0 0 0 0 0 0 
+P:2   6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+P:3   4 3 1 0 0 0 0 0 0 0 2 0 0 0 0 0 4 0 0 0 
+P:4   0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 
+P:5   0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+P:6   0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 
+
+OSS has detected Process P6 requesting R17 at time 5:860910000
+OSS has granted Process P6 resource R17 at time 5:860910000
+OSS has detected Process P6 has released resource R17 at time 5:861660000
+OSS has detected Process P6 requesting R15 at time 5:863180000
+OSS has put Process P6 in waiting status for R15 at time 5:863180000
+OSS has detected deadlock at 6:0
+	Process P3 being terminated in deadlock algoritm at time 6:0
+		Resources released are:
+			R0 R1 R2 R10 R16 
+OSS has detected resource R10 given to process P1 at time 6:0
+OSS has detected resource R10 given to process P4 at time 6:0
+	Process P5 being terminated in deadlock algoritm at time 6:0
+		Resources released are:
+			R17 
+	Process P6 being terminated in deadlock algoritm at time 6:0
+		Resources released are:
+			
+	Process P2 being terminated in deadlock algoritm at time 6:0
+		Resources released are:
+			R0 
+System is no longer in deadlock
+OSS has detected Process P1 has released resource R10 at time 6:10000
+OSS has detected Process P4 requesting R7 at time 6:20000
+OSS has granted Process P4 resource R7 at time 6:20000
+OSS has detected Process P1 requesting R3 at time 6:260000
+OSS has granted Process P1 resource R3 at time 6:260000
+OSS has detected Process P4 requesting R1 at time 6:270000
+OSS has granted Process P4 resource R1 at time 6:270000
+OSS has detected Process P4 requesting R16 at time 6:2760000
+OSS has granted Process P4 resource R16 at time 6:2760000
+OSS has detected Process P1 requesting R6 at time 6:2770000
+OSS has granted Process P1 resource R6 at time 6:2770000
+OSS has detected Process P4 has released resource R16 at time 6:4910000
+OSS has detected Process P1 has released resource R9 at time 6:4920000
+OSS has detected Process P4 requesting R7 at time 6:5010000
+OSS has put Process P4 in waiting status for R7 at time 6:5010000
+OSS has detected Process P1 requesting R16 at time 6:5180000
+OSS has granted Process P1 resource R16 at time 6:5180000
+OSS has detected Process P1 has released resource R16 at time 6:5420000
+OSS has detected Process P1 requesting R7 at time 6:5670000
+OSS has put Process P1 in waiting status for R7 at time 6:5670000
+OSS has created a new Process P2 at time 6:247690000
+OSS has detected Process P2 requesting R6 at time 6:252940000
+OSS has put Process P2 in waiting status for R6 at time 6:252940000
+OSS has created a new Process P3 at time 6:469310000
+OSS has detected Process P3 requesting R16 at time 6:474410000
+OSS has granted Process P3 resource R16 at time 6:474410000
+OSS has created a new Process P5 at time 6:484780000
+OSS has detected Process P5 requesting R17 at time 6:489480000
+OSS has granted Process P5 resource R17 at time 6:489480000
+OSS has detected Process P3 has released resource R16 at time 6:489490000
+OSS has detected Process P5 requesting R18 at time 6:490970000
+OSS has granted Process P5 resource R18 at time 6:490970000
+OSS has detected Process P3 requesting R18 at time 6:490980000
+OSS has put Process P3 in waiting status for R18 at time 6:490980000
+OSS has detected Process P5 has released resource R18 at time 6:491260000
+OSS has detected resource R18 given to process 3 while in wait status 6:491260000
+OSS has detected Process P5 requesting R12 at time 6:491560000
+OSS has granted Process P5 resource R12 at time 6:491560000
+OSS has detected Process P3 requesting R16 at time 6:491640000
+OSS has granted Process P3 resource R16 at time 6:491640000
+OSS has detected Process P3 has released resource R18 at time 6:492280000
+OSS has detected Process P5 requesting R17 at time 6:492290000
+OSS has put Process P5 in waiting status for R17 at time 6:492290000
+OSS has detected Process P3 requesting R3 at time 6:492930000
+OSS has granted Process P3 resource R3 at time 6:492930000
+OSS has detected Process P3 requesting R1 at time 6:494530000
+OSS has put Process P3 in waiting status for R1 at time 6:494530000
+OSS has created a new Process P6 at time 6:591470000
+OSS has detected Process P6 requesting R14 at time 6:597630000
+OSS has granted Process P6 resource R14 at time 6:597630000
+OSS has detected Process P6 requesting R5 at time 6:613020000
+OSS has put Process P6 in waiting status for R5 at time 6:613020000
+OSS has created a new Process P7 at time 6:662730000
+OSS has detected Process P7 requesting R16 at time 6:668310000
+OSS has put Process P7 in waiting status for R16 at time 6:668310000
+OSS has detected deadlock at 7:0
+	Process P4 being terminated in deadlock algoritm at time 7:0
+		Resources released are:
+			R1 R7 R10 R15 
+OSS has detected resource R7 given to process P1 at time 7:0
+OSS has detected resource R1 given to process P3 at time 7:0
+	Process P6 being terminated in deadlock algoritm at time 7:0
+		Resources released are:
+			R5 R14 
+	Process P7 being terminated in deadlock algoritm at time 7:0
+		Resources released are:
+			R16 
+	Process P2 being terminated in deadlock algoritm at time 7:0
+		Resources released are:
+			R6 
+	Process P5 being terminated in deadlock algoritm at time 7:0
+		Resources released are:
+			R12 R17 
+System is no longer in deadlock
+OSS has detected Process P1 requesting R6 at time 7:10000
+OSS has granted Process P1 resource R6 at time 7:10000
+
+Here's a look at our resource table:
+P:1   0 0 0 2 0 7 7 1 0 0 0 0 0 0 0 0 0 0 0 0 
+P:3   0 6 0 5 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 
+
+OSS has detected Process P3 requesting R3 at time 7:20000
+OSS has put Process P3 in waiting status for R3 at time 7:20000
+OSS has detected Process P1 requesting R16 at time 7:1160000
+OSS has put Process P1 in waiting status for R16 at time 7:1160000
+OSS has created a new Process P2 at time 7:95220000
+OSS has detected Process P2 requesting R3 at time 7:105940000
+OSS has put Process P2 in waiting status for R3 at time 7:105940000
+OSS has created a new Process P4 at time 7:440190000
+OSS has detected Process P4 requesting R7 at time 7:444040000
+OSS has put Process P4 in waiting status for R7 at time 7:444040000
+OSS has created a new Process P5 at time 7:497960000
+OSS has detected Process P5 requesting R1 at time 7:503210000
+OSS has put Process P5 in waiting status for R1 at time 7:503210000
+OSS has created a new Process P6 at time 7:822200000
+OSS has detected Process P6 requesting R16 at time 7:829790000
+OSS has put Process P6 in waiting status for R16 at time 7:829790000
+OSS has created a new Process P7 at time 7:879150000
+OSS has detected Process P7 requesting R10 at time 7:889400000
+OSS has granted Process P7 resource R10 at time 7:889400000
+OSS has detected Process P7 requesting R17 at time 7:894540000
+OSS has granted Process P7 resource R17 at time 7:894540000
+OSS has detected Process P7 has released resource R17 at time 7:895400000
+OSS has detected Process P7 has released resource R10 at time 7:896270000
+OSS has detected Process P7 requesting R17 at time 7:897140000
+OSS has granted Process P7 resource R17 at time 7:897140000
+OSS has detected Process P7 has released resource R17 at time 7:898490000
+OSS has detected Process P7 requesting R19 at time 7:900230000
+OSS has granted Process P7 resource R19 at time 7:900230000
+OSS has detected Process P7 requesting R6 at time 7:901500000
+OSS has put Process P7 in waiting status for R6 at time 7:901500000
+OSS has detected deadlock at 8:0
+	Process P3 being terminated in deadlock algoritm at time 8:0
+		Resources released are:
+			R1 R3 R16 
+OSS has detected resource R16 given to process P1 at time 8:0
+OSS has detected resource R1 given to process P5 at time 8:0
+	Process P6 being terminated in deadlock algoritm at time 8:0
+		Resources released are:
+			
+	Process P7 being terminated in deadlock algoritm at time 8:0
+		Resources released are:
+			R6 R19 
+	Process P2 being terminated in deadlock algoritm at time 8:0
+		Resources released are:
+			R3 
+	Process P4 being terminated in deadlock algoritm at time 8:0
+		Resources released are:
+			
+System is no longer in deadlock
+OSS has detected Process P5 requesting R7 at time 8:10000
+OSS has put Process P5 in waiting status for R7 at time 8:10000
+OSS has detected Process P1 requesting R1 at time 8:20000
+OSS has put Process P1 in waiting status for R1 at time 8:20000
+OSS has created a new Process P2 at time 8:320200000
+OSS has detected Process P2 requesting R16 at time 8:517300000
+OSS has put Process P2 in waiting status for R16 at time 8:517300000
+OSS has created a new Process P3 at time 8:645200000
+OSS has detected Process P3 requesting R9 at time 8:650010000
+OSS has granted Process P3 resource R9 at time 8:650010000
+OSS has detected Process P3 has released resource R9 at time 8:650500000
+OSS has detected Process P3 requesting R5 at time 8:651000000
+OSS has granted Process P3 resource R5 at time 8:651000000
+OSS has detected Process P3 requesting R2 at time 8:652580000
+OSS has granted Process P3 resource R2 at time 8:652580000
+OSS has detected Process P3 has released resource R5 at time 8:653250000
+OSS has detected Process P3 has released resource R2 at time 8:653740000
+OSS has detected Process P3 requesting R9 at time 8:654250000
+OSS has granted Process P3 resource R9 at time 8:654250000
+OSS has detected Process P3 requesting R5 at time 8:654930000
+OSS has put Process P3 in waiting status for R5 at time 8:654930000
+OSS has created a new Process P4 at time 8:939870000
+OSS has detected Process P4 requesting R6 at time 8:947860000
+OSS has put Process P4 in waiting status for R6 at time 8:947860000
+OSS has detected deadlock at 9:0
+	Process P5 being terminated in deadlock algoritm at time 9:0
+		Resources released are:
+			R1 
+OSS has detected resource R1 given to process P1 at time 9:0
+	Process P4 being terminated in deadlock algoritm at time 9:0
+		Resources released are:
+			R6 
+	Process P2 being terminated in deadlock algoritm at time 9:0
+		Resources released are:
+			R16 
+	Process P3 being terminated in deadlock algoritm at time 9:0
+		Resources released are:
+			R5 R9 
+System is no longer in deadlock
+OSS has detected Process P1 has released resource R16 at time 9:10000
+OSS has detected Process P1 requesting R10 at time 9:260000
+OSS has granted Process P1 resource R10 at time 9:260000
+OSS has detected Process P1 requesting R2 at time 9:2820000
+OSS has granted Process P1 resource R2 at time 9:2820000
+OSS has detected Process P1 requesting R18 at time 9:3700000
+OSS has granted Process P1 resource R18 at time 9:3700000
+OSS has detected Process P1 requesting R12 at time 9:4450000
+OSS has granted Process P1 resource R12 at time 9:4450000
+OSS has detected Process P1 requesting R11 at time 9:4700000
+OSS has granted Process P1 resource R11 at time 9:4700000
+OSS has detected Process P1 requesting R18 at time 9:7410000
+OSS has put Process P1 in waiting status for R18 at time 9:7410000
+OSS has created a new Process P2 at time 9:220890000
+OSS has detected Process P2 requesting R5 at time 9:228970000
+OSS has put Process P2 in waiting status for R5 at time 9:228970000
+OSS has created a new Process P3 at time 9:392240000
+OSS has detected Process P3 requesting R16 at time 9:397360000
+OSS has granted Process P3 resource R16 at time 9:397360000
+OSS has detected Process P3 requesting R17 at time 9:464120000
+OSS has granted Process P3 resource R17 at time 9:464120000
+OSS has detected Process P3 requesting R2 at time 9:466720000
+OSS has put Process P3 in waiting status for R2 at time 9:466720000
+OSS has created a new Process P4 at time 9:619060000
+OSS has detected Process P4 requesting R0 at time 9:641370000
+OSS has granted Process P4 resource R0 at time 9:641370000
+OSS has detected Process P4 requesting R7 at time 9:641730000
+OSS has put Process P4 in waiting status for R7 at time 9:641730000
+OSS has created a new Process P5 at time 9:670960000
+OSS has detected Process P5 requesting R9 at time 9:679820000
+OSS has granted Process P5 resource R9 at time 9:679820000
+
+Here's a look at our resource table:
+P:1   0 7 1 2 0 7 7 1 0 0 1 3 1 0 0 0 0 0 9 0 
+P:2   0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+P:3   0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 7 0 0 
+P:4   8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+P:5   0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+
+OSS has detected Process P5 has released resource R9 at time 9:680280000
+OSS has detected Process P5 requesting R5 at time 9:680740000
+OSS has put Process P5 in waiting status for R5 at time 9:680740000
+OSS has detected deadlock at 10:0
+	Process P1 being terminated in deadlock algoritm at time 10:0
+		Resources released are:
+			R1 R2 R3 R5 R6 R7 R10 R11 R12 R18 
+OSS has detected resource R5 given to process P2 at time 10:0
+OSS has detected resource R2 given to process P3 at time 10:0
+	Process P4 being terminated in deadlock algoritm at time 10:0
+		Resources released are:
+			R0 
+	Process P5 being terminated in deadlock algoritm at time 10:0
+		Resources released are:
+			R5 
+System is no longer in deadlock
+OSS has detected Process P2 has released resource R5 at time 10:10000
+OSS has detected Process P3 requesting R16 at time 10:20000
+OSS has put Process P3 in waiting status for R16 at time 10:20000
+OSS has detected Process P2 requesting R6 at time 10:860000
+OSS has granted Process P2 resource R6 at time 10:860000
+OSS has detected Process P2 has released resource R6 at time 10:2930000
+OSS has detected Process P2 requesting R9 at time 10:4600000
+OSS has granted Process P2 resource R9 at time 10:4600000
+OSS has detected Process P2 requesting R2 at time 10:5440000
+OSS has put Process P2 in waiting status for R2 at time 10:5440000
+OSS has created a new Process P1 at time 10:60070000
+OSS has detected Process P1 requesting R0 at time 10:69040000
+OSS has granted Process P1 resource R0 at time 10:69040000
+OSS has detected Process P1 requesting R4 at time 10:70480000
+OSS has granted Process P1 resource R4 at time 10:70480000
+OSS has detected Process P1 requesting R14 at time 10:72300000
+OSS has granted Process P1 resource R14 at time 10:72300000
+OSS has detected Process P1 requesting R14 at time 10:72790000
+OSS has put Process P1 in waiting status for R14 at time 10:72790000
+OSS has created a new Process P4 at time 10:120910000
+OSS has detected Process P4 requesting R6 at time 10:129060000
+OSS has granted Process P4 resource R6 at time 10:129060000
+OSS has detected Process P4 has released resource R6 at time 10:179070000
+OSS has detected Process P4 requesting R10 at time 10:179980000
+OSS has granted Process P4 resource R10 at time 10:179980000
+OSS has detected Process P4 requesting R15 at time 10:181440000
+OSS has granted Process P4 resource R15 at time 10:181440000
+OSS has detected Process P4 requesting R6 at time 10:182340000
+OSS has granted Process P4 resource R6 at time 10:182340000
+OSS has detected Process P4 requesting R11 at time 10:183250000
+OSS has granted Process P4 resource R11 at time 10:183250000
+OSS has detected Process P4 requesting R9 at time 10:185000000
+OSS has put Process P4 in waiting status for R9 at time 10:185000000
+OSS has created a new Process P5 at time 10:193510000
+OSS has detected Process P5 requesting R5 at time 10:197730000
+OSS has granted Process P5 resource R5 at time 10:197730000
+OSS has detected Process P5 requesting R15 at time 10:234540000
+OSS has put Process P5 in waiting status for R15 at time 10:234540000
+OSS has created a new Process P6 at time 10:468030000
+OSS has detected Process P6 requesting R2 at time 10:473050000
+OSS has put Process P6 in waiting status for R2 at time 10:473050000
+OSS has created a new Process P7 at time 10:634490000
+OSS has detected Process P7 requesting R0 at time 10:638750000
+OSS has put Process P7 in waiting status for R0 at time 10:638750000
+OSS has created a new Process P8 at time 10:813020000
+OSS has detected Process P8 requesting R1 at time 10:817390000
+OSS has granted Process P8 resource R1 at time 10:817390000
+OSS has detected Process P8 requesting R9 at time 10:860550000
+OSS has put Process P8 in waiting status for R9 at time 10:860550000
+OSS has created a new Process P9 at time 10:990340000
+OSS has detected Process P9 requesting R17 at time 10:993340000
+OSS has put Process P9 in waiting status for R17 at time 10:993340000
+OSS has detected deadlock at 11:0
+	Process P3 being terminated in deadlock algoritm at time 11:0
+		Resources released are:
+			R2 R16 R17 
+OSS has detected resource R2 given to process P2 at time 11:0
+	Process P9 being terminated in deadlock algoritm at time 11:0
+		Resources released are:
+			R17 
+	Process P1 being terminated in deadlock algoritm at time 11:0
+		Resources released are:
+			R0 R4 R14 
+OSS has detected resource R0 given to process P7 at time 11:0
+	Process P8 being terminated in deadlock algoritm at time 11:0
+		Resources released are:
+			R1 
+	Process P4 being terminated in deadlock algoritm at time 11:0
+		Resources released are:
+			R6 R9 R10 R11 R15 
+OSS has detected resource R15 given to process P5 at time 11:0
+	Process P6 being terminated in deadlock algoritm at time 11:0
+		Resources released are:
+			
+System is no longer in deadlock
+OSS has detected Process P2 has released resource R9 at time 11:10000
+OSS has detected Process P7 has released resource R0 at time 11:20000
+OSS has detected Process P5 requesting R4 at time 11:30000
+OSS has granted Process P5 resource R4 at time 11:30000
+OSS has detected Process P7 requesting R13 at time 11:550000
+OSS has granted Process P7 resource R13 at time 11:550000
+OSS has detected Process P2 requesting R13 at time 11:860000
+OSS has put Process P2 in waiting status for R13 at time 11:860000
+OSS has detected Process P5 has released resource R15 at time 11:870000
+OSS has detected Process P5 has released resource R5 at time 11:1510000
+OSS has detected Process P5 requesting R7 at time 11:2150000
+OSS has granted Process P5 resource R7 at time 11:2150000
+
+Here's a look at our resource table:
+P:2   0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+P:5   0 0 0 0 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+P:7   0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+
+OSS has detected Process P7 requesting R16 at time 11:2160000
+OSS has granted Process P7 resource R16 at time 11:2160000
+OSS has detected Process P7 has released resource R16 at time 11:2440000
+OSS has detected Process P7 requesting R8 at time 11:2700000
+OSS has granted Process P7 resource R8 at time 11:2700000
+OSS has detected Process P7 has released resource R13 at time 11:2970000
+OSS has detected resource R13 given to process 2 while in wait status 11:2970000
+OSS has detected Process P5 requesting R11 at time 11:2980000
+OSS has granted Process P5 resource R11 at time 11:2980000
+OSS has detected Process P7 requesting R0 at time 11:3260000
+OSS has granted Process P7 resource R0 at time 11:3260000
+OSS has detected Process P2 requesting R0 at time 11:4380000
+OSS has put Process P2 in waiting status for R0 at time 11:4380000
+OSS has detected Process P5 requesting R10 at time 11:4390000
+OSS has granted Process P5 resource R10 at time 11:4390000
+OSS has detected Process P7 requesting R15 at time 11:4400000
+OSS has granted Process P7 resource R15 at time 11:4400000
+OSS has detected Process P7 has released resource R15 at time 11:5190000
+OSS has detected Process P5 requesting R11 at time 11:5200000
+OSS has put Process P5 in waiting status for R11 at time 11:5200000
+OSS has detected Process P7 requesting R16 at time 11:5450000
+OSS has granted Process P7 resource R16 at time 11:5450000
+OSS has detected Process P7 requesting R1 at time 11:5720000
+OSS has granted Process P7 resource R1 at time 11:5720000
+OSS has detected Process P7 requesting R2 at time 11:5990000
+OSS has put Process P7 in waiting status for R2 at time 11:5990000
+OSS has created a new Process P1 at time 11:64540000
+OSS has detected Process P1 requesting R17 at time 11:70420000
+OSS has granted Process P1 resource R17 at time 11:70420000
+OSS has detected Process P1 requesting R12 at time 11:71370000
+OSS has granted Process P1 resource R12 at time 11:71370000
+OSS has detected Process P1 requesting R16 at time 11:89020000
+OSS has put Process P1 in waiting status for R16 at time 11:89020000
+OSS has created a new Process P3 at time 11:90130000
+OSS has detected Process P3 requesting R0 at time 11:94580000
+OSS has put Process P3 in waiting status for R0 at time 11:94580000
+OSS has created a new Process P4 at time 11:557480000
+OSS has detected Process P4 requesting R16 at time 11:562120000
+OSS has put Process P4 in waiting status for R16 at time 11:562120000
+Requests Granted: 151
+Deadlock detection ran 11 times
+Total processes terminated in deadlock: 38
+Total processes terminated naturally: 2

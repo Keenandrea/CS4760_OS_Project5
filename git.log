@@ -1,0 +1,40 @@
+commit 0d107365aeb83fff61f91f942faa75d043e559e6
+Author: samuel woodruff <woodruff@hoare7.cs.umsl.edu>
+Date:   Thu Apr 25 16:53:31 2019 -0500
+
+    Refactored some code
+    Enhanced some outputs to the log file
+    Added readme file
+
+commit cf0a38a90c7f6e27b583962bcb0eac1c9bbb0810
+Author: samuel woodruff <woodruff@hoare7.cs.umsl.edu>
+Date:   Mon Apr 22 14:10:31 2019 -0500
+
+    Added my own deadlock algorithm
+    to kill first proces found waiting on resource
+
+commit 360301ed4aa2113d572d83f859f2d6f22e9d7c4d
+Author: samuel woodruff <woodruff@hoare7.cs.umsl.edu>
+Date:   Sat Apr 20 22:12:51 2019 -0500
+
+    Added writing to log
+
+commit c82fa95d8a626a65c3a8bcd4a652e2ef07cef6d3
+Author: samuel woodruff <woodruff@hoare7.cs.umsl.edu>
+Date:   Fri Apr 19 18:37:52 2019 -0500
+
+    User now communicates to oss when it releases, terminate, or requests
+
+commit 53daaaf4c38ca44c9df142b7fcaa5e7b07bb6bd0
+Author: samuel woodruff <woodruff@hoare7.cs.umsl.edu>
+Date:   Fri Apr 19 15:50:36 2019 -0500
+
+    Setting up message queues and communication with oss and children
+    Need to fix exit parameters of oss
+
+commit 75d7c7a98cf40fbaab439ffa3bae177899f00f92
+Author: samuel woodruff <woodruff@hoare7.cs.umsl.edu>
+Date:   Fri Apr 19 10:22:13 2019 -0500
+
+    Set up shared memory, clock, sempahore, and initalized
+    resource desciptors within oss
